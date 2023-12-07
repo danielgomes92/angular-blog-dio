@@ -1,0 +1,9 @@
+.menu-bar-conteiner > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar-conteiner > ul > li {
+  list-style: none;
+  padding: 15px 20px 0;
+}
