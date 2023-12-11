@@ -1,7 +1,7 @@
 .big-card-container {
   margin: 0 20px 0 20px;
   width: 450px;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -14,7 +14,26 @@
 }
 
 .big-card-description {
-    margin-top: 20px;
+  margin: 20px 0 0 0;
+}
+
+.big-card-container > a {
+  color: #afafaf;
+  background-color: #b12a2a;
+  border-radius: 5px;
+  padding: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.big-card-container > a:hover {
+  color: #b12a2a;
+  background-color: #afafaf;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .big-card-description > p > a {

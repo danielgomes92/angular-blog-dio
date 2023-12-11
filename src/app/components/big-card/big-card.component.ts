@@ -16,4 +16,6 @@ export class BigCardComponent {
   cardDescription: string = '';
   @Input()
   linkUrl: string = '';
+  @Input()
+  contentPage: string = '';
 }
